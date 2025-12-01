@@ -118,11 +118,68 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "slideshow_8pDAxy": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_fgbGex": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/image_3_ce2593cd-79ba-4144-93ec-f041f5ebbe2d.png",
+            "image_overlay_opacity": 0,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_VWCqdc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/image_4_723dbad2-c096-4491-8fd8-2858088d1e39.png",
+            "image_overlay_opacity": 0,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_fgbGex",
+        "slide_VWCqdc"
+      ],
+      "name": "t:sections.slideshow.presets.name",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
-    "rich_text_pYk9j4"
+    "rich_text_pYk9j4",
+    "slideshow_8pDAxy"
   ]
 }
