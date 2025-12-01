@@ -1,0 +1,98 @@
+/* Responsive Slideshow - Mobile and Desktop Images */
+
+.slideshow__image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.slideshow__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Hide desktop image on mobile */
+.slideshow__image--desktop {
+  display: none;
+}
+
+/* Show mobile image on mobile */
+.slideshow__image--mobile {
+  display: block;
+}
+
+/* Show desktop image and hide mobile image on desktop */
+@media screen and (min-width: 750px) {
+  .slideshow__image--desktop {
+    display: block;
+  }
+
+  .slideshow__image--mobile {
+    display: none;
+  }
+}
+
+/* Ensure proper aspect ratio handling */
+.slideshow__media .slideshow__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slideshow__media .slideshow__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Responsive image sizing */
+@media screen and (max-width: 749px) {
+  .slideshow__image--mobile img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .slideshow__image--desktop img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Ensure images maintain aspect ratio in adapt_image mode */
+.banner--adapt_image .slideshow__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner--adapt_image .slideshow__image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Fix for placeholder state */
+.slideshow__media.placeholder .slideshow__image {
+  display: none;
+}
+
+/* Animation support */
+.slideshow__image img {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Ensure proper stacking context */
+.slideshow__media {
+  position: relative;
+  overflow: hidden;
+}
+
