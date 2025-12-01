@@ -174,12 +174,69 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "slideshow_responsive_WNbfHr": {
+      "type": "slideshow-responsive",
+      "blocks": {
+        "slide_RtqLeA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/image_3_ce2593cd-79ba-4144-93ec-f041f5ebbe2d.png",
+            "image_overlay_opacity": 0,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        },
+        "slide_XbCDzQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/image_2_7b507d36-e77c-4357-8e64-93470c1ec7d4.png",
+            "image_overlay_opacity": 0,
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "show_text_box": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "text_alignment_mobile": "center",
+            "color_scheme": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_RtqLeA",
+        "slide_XbCDzQ"
+      ],
+      "name": "Responsive Slideshow",
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_collection",
     "rich_text_pYk9j4",
-    "slideshow_8pDAxy"
+    "slideshow_8pDAxy",
+    "slideshow_responsive_WNbfHr"
   ]
 }
