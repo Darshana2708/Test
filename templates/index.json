@@ -230,6 +230,49 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "marquee_3qXRQa": {
+      "type": "marquee",
+      "blocks": {
+        "text_item_cchkTj": {
+          "type": "text_item",
+          "settings": {
+            "text": "Free shipping on all orders",
+            "link": ""
+          }
+        },
+        "text_item_Q3GrnX": {
+          "type": "text_item",
+          "settings": {
+            "text": "New arrivals dropping weekly",
+            "link": ""
+          }
+        },
+        "text_item_BRfKd8": {
+          "type": "text_item",
+          "settings": {
+            "text": "Join our rewards program",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_item_cchkTj",
+        "text_item_Q3GrnX",
+        "text_item_BRfKd8"
+      ],
+      "name": "Marquee",
+      "settings": {
+        "heading": "Scrolling marquee",
+        "subheading": "Showcase messages, logos, or promotions in a continuous scroll.",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "speed": 30,
+        "gap": 40,
+        "direction": "left",
+        "style": "continuous",
+        "vertical": false
+      }
     }
   },
   "order": [
@@ -237,6 +280,7 @@
     "featured_collection",
     "rich_text_pYk9j4",
     "slideshow_8pDAxy",
-    "slideshow_responsive_WNbfHr"
+    "slideshow_responsive_WNbfHr",
+    "marquee_3qXRQa"
   ]
 }
