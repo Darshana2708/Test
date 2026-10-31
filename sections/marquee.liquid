@@ -99,7 +99,7 @@
                       height: {{ block.settings.icon_size }}px;
                     "
                   >
-                    {%- render block.settings.icon_snippet -%}
+                    {%- render block -%}
                   </div>
 
                   {%- if block.settings.link != blank -%}
@@ -312,3 +312,13 @@
 {% endschema %}
 
 
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: "{%- render block.settings.icon_snippet -%}"
+  to: "{%- render block -%}"
+  position: 3886..3906
+{% endcomment %}
